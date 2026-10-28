@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 30px 16px;
+    color: rgb(125, 182, 182);
+}
+.profile-card {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(232, 203, 252);
+    border-radius: 16px;
+    box-shadow: 0 8px 24 px rosybrown(15,3971,0.12);
+}
+
+.photo {
+    max-width: 200px;
+    border-radius: 60%;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+.profile-card {
+    line-height: 1.8;
+}
+
+.motto {
+    margin-top: 24px;
+    padding: 16px;
+    background: aliceblue;
+    border-left: Spx solid burlywood;
+    border-radius: 8px;
+}
+button {
+    margin-top: 16px;
+     padding: 12px 24px;
+     border: none;
+     border-radius: 8px;
+     background: hotpink;
+     color: antiquewhite;
+     font-size: 16px;
+     cursor: pointer;
+}
+button:hover {
+    background: rgb(149, 149, 226);
+}
+#message {
+    color: cadetblue;
+    font-weight: bold;
+}
